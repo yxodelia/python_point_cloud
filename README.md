@@ -11,6 +11,21 @@
 [![GitHub license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://raw.githubusercontent.com/tesseract-ocr/tesseract/master/LICENSE)
 [![Downloads](https://img.shields.io/badge/download-all%20releases-brightgreen.svg)](https://github.com/tesseract-ocr/tesseract/releases/)
 
+## Environment
+
+Python 3
+
+
+## Usage
+
+// Install the reference libs
+pip install -r requirements.txt
+
+
+## Run - You can have a look at the help for usage
+python main.py -h
+
+
 ## About
 
 This package contains an **OCR engine** - `libtesseract` and a **command line program** - `tesseract`.
