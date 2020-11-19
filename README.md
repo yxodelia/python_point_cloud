@@ -18,8 +18,9 @@ Python 3
 
 ## Usage
 
-// Install the reference libs
-pip install -r requirements.txt
+Install the reference libs:
+
+    pip install -r requirements.txt
 
 
 ## Run - You can have a look at the help for usage
