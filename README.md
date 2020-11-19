@@ -126,6 +126,4 @@ It is suggested to use leptonica with built-in support for [zlib](https://zlib.n
 
 ## Latest Version of README
 
-For the latest online version of the README.md see:
-
-https://github.com/tesseract-ocr/tesseract/blob/master/README.md
+For the latest online version of the README.md, I updated it in 11/10/2020
