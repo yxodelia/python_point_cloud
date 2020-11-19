@@ -24,7 +24,7 @@ Install the reference libs:
 
 
 ## Run - You can have a look at the help for usage
-python main.py -h
+    python main.py -h
 
 
 ## About
