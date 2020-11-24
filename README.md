@@ -36,7 +36,7 @@ There is the demo input and output data in this repo.
 
 ## Brief history
 
-&nbsp;&nbsp;At first we want to develop an algorithm automatically tracking the whole construction process, based on the point cloud data collected by our DJI unmanned aerial vehicles. With no previous engineering knowledge.
+&nbsp;&nbsp;At first we want to develop an algorithm automatically tracking the whole construction process, based on the point cloud data collected by our DJI unmanned aerial vehicles. With no previous engineering knowledge.  
 &nbsp;&nbsp;1.I started this project by consulting professionals at 3D modeling for advice. After a few days of effort, I proposed a workable but not optimal computation complexity algorithm, which was to search each pair corresponding points in two-day cloud points by sorting Euclidean distance between the points. The distance difference of the corresponding pairs we got was just the construction progress made. This algorithm did work, but was taking as long as 8 hours. 
 &nbsp;&nbsp;2.In the second optimized version, I tried multi CPU threads to make it a parallel computation, and the process time was shortened to about two hours. However, my manager was expecting an even higher speed as half an hour. I struggled for the first few days, reading hundreds of papers and studying similar cases for possible solutions. Finally, I found the k-dimensional tree (KD-tree), which could be applied to both space searching and the nearest points searching. This approach worked very efficiently for this challenge, taking only a few minutes to finish the calculation. My manager was very satisfied with the performance optimization.
 
